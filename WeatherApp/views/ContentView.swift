@@ -12,11 +12,11 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            WelcomeView()
+                .environmentObject(locationManager)
         }
+        .background(Color(hue: 0.634, saturation: 0.811, brightness: 0.623))
+        .preferredColorScheme(.dark)
         .padding()
     }
 }
