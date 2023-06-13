@@ -38,7 +38,7 @@ struct ContentView: View {
                 }
             }
         }
-        .background(Color(hue: 0.634, saturation: 0.811, brightness: 0.623))
+        .background(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
         .preferredColorScheme(.dark)
         .padding()
     }
